@@ -1,24 +1,24 @@
 package zdsp;
-
+//ç§¦é¸¿ç¥œä¿®æ”¹åçš„ç³»ç»Ÿ
 import java.util.Scanner;
 
 public class Zidsp {
 
 	public static void main(String[] args) {
 		Scanner in=new Scanner(System.in);
-		//¶ÁÈëÍ¶±Ò½ğ¶î
-		System.out.print("ÇëÍ¶±Ò£º");
+		//è¯»å…¥æŠ•å¸é‡‘é¢
+		System.out.print("è¯·æŠ•å¸ï¼š");
 		int amount=in.nextInt();
 		//System.out.print(amount>10);
 		if(amount>=10)
 		{
-					//´òÓ¡³öÀ´³µÆ±
+					//æ‰“å°å‡ºæ¥è½¦ç¥¨
 					System.out.println("***************");
-					System.out.println("*    ÎŞÖ¸¶¨×öÎ»Æ±    *");
-					System.out.println("*    Æ±¼Û£º10Ôª      *");
+					System.out.println("*    æ— æŒ‡å®šåšä½ç¥¨    *");
+					System.out.println("*    ç¥¨ä»·ï¼š10å…ƒ      *");
 					System.out.println("***************");
-					//¼ÆËã²¢ÕÒÁã³öÓà¶î
-					System.out.println("ÕÒÁã£º"+(amount-10));
+					//è®¡ç®—å¹¶æ‰¾é›¶å‡ºä½™é¢
+					System.out.println("æ‰¾é›¶ï¼š"+(amount-10));
 		}
 	}
 
